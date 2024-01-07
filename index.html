@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registration form</title>
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="reg">
+    <form action="#">
+      <div>
+        <h2>Registration Form</h2>
+        <div class="f.name">
+          <label for="f.n">Enter your first Name: </label>
+          <input type="text" name="f.n" id="f.n" required placeholder="Enter your First Name" />
+        </div>
+        <br />
+        <div class="l.name">
+          <label for="l.n">Enter your last Name: </label>
+          <input type="text" name="l.name" id="l.name" required placeholder="Enter your last Name" />
+        </div>
+        <br />
+
+        <div class="Email">
+          <label for="e">Enter your Email: </label>
+          <input type="text" name="e" id="e" required placeholder="Enter your Email" />
+        </div>
+        <br />
+
+        <div class="Password">
+          <label for="Password">Creat a new Password: </label>
+          <input type="password" id="password" name="password" required placeholder="Creat a new Password"/>
+        </div>
+        <br />
+
+        <input type= "radio" > Personal Account 
+        <br>
+        <input type= "radio" > Business Account  
+        <br>
+        <input type= "radio" > I accept the terms & conditions 
+      <br />
+      <br>
+      <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="profilePicture">upload a profile picture:</label>
+        <input type="file" id="profilePicture" name="profilePicture" accept="image/*">
+        <br>
+        <input type="submit" value="Upload">
+    </form>
+
+    <form>
+      <div class=" age "> 
+      <label for="age">Enter your age (in years):</label>
+      <input type="number" id="age" name="age" min="1" max="2024" required>
+    </div>
+  </form>
+<br>
+
+<form>
+  <label for="howDidYouHear">How did you hear about us?</label>
+  <select id="howDidYouHear" name="howDidYouHear" required>
+      <option value="" disabled selected>Select an option</option>
+      <option value="searchEngine">Search Engine</option>
+      <option value="socialMedia">Social Media</option>
+      <option value="friend">Friend/Family</option>
+      <option value="advertisement">Advertisement</option>
+      <option value="other">Other</option>
+  </select>
+  <br>
+</form>
+        <label for="ab">Provide a bio:</label><textarea name="ab" id="ab" cols="50" rows="4" required
+          placeholder="write about yourself...."></textarea><br /><br />
+          <br>
+<div class="Button"><button>Submit</button></div>
+        <br />
+      </div>
+    </form>
+  </div>
+</body>
+</div>
+</html>

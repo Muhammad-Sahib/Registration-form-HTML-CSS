@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(32,33,36);
+    padding: 5rem 10rem 0rem 5rem;
+  }
+  .reg {
+    margin: 0rem 20rem 0rem 10rem;
+    padding: 0rem 15rem 0rem 5rem;
+    border: rgb(138,180,248);
+    background-color: rgb(138,180,248);
+  }
+  button {
+    width: 15rem;
+    color: black;
+    border: none;
+  }
+  input {
+    border: none;
+  }
+  #f.name{
+    width: 13.5rem;
+  }
+  #l.name {
+    width: 13.5rem;
+  }
+  #email {
+    width: 13.5rem;
+  }
+  #pasword{
+    width: 13.5rem;
+  }
+  #age{
+    width: 10.5rem;
+  }
+  .Button{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%; 
+      width: 23rem;
+  }
